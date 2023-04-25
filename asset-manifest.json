@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ecom_website/static/css/main.a520a6a1.css",
-    "main.js": "/ecom_website/static/js/main.fb6a1bd8.js",
+    "main.css": "/ecom_website/static/css/main.629489b6.css",
+    "main.js": "/ecom_website/static/js/main.2cf73e80.js",
     "static/js/787.93744af3.chunk.js": "/ecom_website/static/js/787.93744af3.chunk.js",
     "static/media/abstract-background-with-waves-glow-vector-illustration-light-background_1182-2531.avif": "/ecom_website/static/media/abstract-background-with-waves-glow-vector-illustration-light-background_1182-2531.9461c4f112cbcad779af.avif",
     "index.html": "/ecom_website/index.html",
-    "main.a520a6a1.css.map": "/ecom_website/static/css/main.a520a6a1.css.map",
-    "main.fb6a1bd8.js.map": "/ecom_website/static/js/main.fb6a1bd8.js.map",
+    "main.629489b6.css.map": "/ecom_website/static/css/main.629489b6.css.map",
+    "main.2cf73e80.js.map": "/ecom_website/static/js/main.2cf73e80.js.map",
     "787.93744af3.chunk.js.map": "/ecom_website/static/js/787.93744af3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a520a6a1.css",
-    "static/js/main.fb6a1bd8.js"
+    "static/css/main.629489b6.css",
+    "static/js/main.2cf73e80.js"
   ]
 }
