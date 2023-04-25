@@ -128,8 +128,14 @@ top: 15%;
   font-size: 18px;
 }
 
+.home_icons{
+  width: 100%;
+}
 .icons{
-  width: 300px;
+  float: left;
+}
+.cart_icon{
+  float: right;
 }
 svg {
   cursor: pointer;

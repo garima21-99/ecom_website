@@ -64,8 +64,8 @@ export default function Productcard({image, price, title, id, }) {
         </CardContent>
         <CardActions>
           <div className='home_icons'>
-        <Button variant="contained" className='icons float-left' onClick={() => navigateProduct(id)}>View More</Button>
-        <AddShoppingCartIcon className='icons cart_icon float-right mx-3' onClick={() => {
+        <Button variant="contained" className='icons' onClick={() => navigateProduct(id)}>View More</Button>
+        <AddShoppingCartIcon className='cart_icon' onClick={() => {
                     let a_=localStorage.getItem('product_id')
                     let b_=JSON.parse(a_)
                     setProductid([...b_,id])
