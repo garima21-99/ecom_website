@@ -53,7 +53,7 @@ const  Cart=()=>{
     {data.map((item,idx)=>{
             if(~p_id.indexOf(item.id)){
                 return  <>
-      <div className="col-12 col-sm-8 items" key={idx}>
+      <div className="col-12 col-sm-8 items" id={'product'+item.id} key={idx}>
         <div className="cartItem row align-items-start">
           <div className="col-3 mb-2">
             <img className="w-50 h-50" src={item.image} alt="art image" />
@@ -76,7 +76,7 @@ const  Cart=()=>{
           </div>
           <div className="col-2">
             <p id="cartItem1Price">$ {item.price}</p>
-            <Button variant="contained" onClick={()=>{
+            <Button variant="contained" onClick={(e)=>{
                 let current=localStorage.getItem('product_id')
                 let current_id=JSON.parse(current)
                 let id = current_id.filter(function(e) { return e !== item.id })
@@ -91,8 +91,9 @@ const  Cart=()=>{
                 document.querySelector('.price_').innerHTML = subtract
                 
                 document.querySelector('.totalprice').innerHTML = subtract
-                window.location.reload()
-
+                
+                let product_div=document.querySelector('#product'+item.id)
+                product_div.classList.add("d-none");
 
               }}>Remove</Button>
           </div>
