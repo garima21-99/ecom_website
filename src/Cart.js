@@ -82,7 +82,7 @@ const  Cart=()=>{
                 let id = current_id.filter(function(e) { return e !== item.id })
                 localStorage.setItem('product_id',JSON.stringify(id))
                 let remove_item=document.getElementById(item.id)
-                let total_price_val=document.querySelector('.price_').getInnerHTML()
+                let total_price_val=document.querySelector('.price_').textContent
 
                 let x=parseFloat(total_price_val)
                 let y=parseFloat(item.price)
