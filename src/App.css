@@ -1,0 +1,333 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.prod_title{
+  width: 230px;
+}
+
+.prod_detail{
+max-height: fit-content;
+padding: 1rem;
+position:fixed;
+left: 40%;
+top: 15%;
+}
+
+.products{
+  position: relative;
+  transform: translateY(65px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.products.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+  
+.home_page img {
+  height: auto;
+  width: 100%;
+  background-position: center;
+  position: relative;
+  background-size: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.home_txt {
+  position: absolute;
+  top: 37%;
+  left: 5%;
+}
+
+.home_txt p {
+  color: var(--primary-color);
+  font-weight: 600;
+  padding-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.home_txt h2 {
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 53px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: var(--light-black);
+}
+
+.home_txt .home_label p {
+  color: grey;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.home_txt a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.home_txt button {
+  background-color: var(--black);
+  color: var(--white);
+  border: none;
+  padding: 15px 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.prod_detail_image{
+  height: 50vh ;
+}
+.add-inputs,.add-inputs input {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
+.add-inputs button {
+    border-radius: 0;
+}
+
+.add-inputs input {
+    height: 48px;
+    width: 65px;
+    border-radius: 0;
+}
+
+
+.par-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.home_txt .bx-right-arrow-alt {
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.home_txt .home_social_icons a {
+  text-decoration: none;
+  color: var(--light-black);
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+
+svg {
+  margin-left: 8rem;
+  cursor: pointer;
+}
+.image{
+  width: 240px !important;
+  height: 200px;
+}
+.aboutus_text{
+  padding: 1rem;
+}
+.about_us_heading,.prod_detail{
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#cart {
+  max-width: 1440px;
+  margin: auto;
+}
+.form div {
+  margin-bottom: 0.4em;
+}
+.cartItem {
+  --bs-gutter-x: 1.5rem;
+}
+.cartItemQuantity,
+.proceed {
+  background: #f4f4f4;
+}
+.items {
+  padding-right: 30px;
+}
+#btn-checkout {
+  min-width: 100%;
+}
+
+/* stasysiia.com */
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+body {
+  background-color: #fff;
+  font-family: "Exo", sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  color: #111111;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: #0e1111;
+  text-decoration: none;
+}
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #111;
+  border-color: transparent;
+  box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
+}
+button:hover,
+.btn:hover {
+  box-shadow: 5px 5px 7px #c8c8c8, -5px -5px 7px white;
+}
+button:active {
+  box-shadow: 2px 2px 2px #c8c8c8, -2px -2px 2px white;
+}
+
+/*PREVENT BROWSER SELECTION*/
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+/*main*/
+main:before {
+  content: "";
+  display: block;
+}
+h1 {
+  font-size: 2.4em;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  margin: 30px 6px;
+}
+h2 {
+  color: rgb(37, 44, 54);
+  font-weight: 700;
+  font-size: 2.5em;
+}
+.proceed{
+  width: 100%;
+}
+
+h5 {
+  padding: 0;
+  font-weight: bold;
+  color: #92afcc;
+}
+p {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  margin: 0.6em 0;
+}
+h1,
+h2,
+h4 {
+  padding-top: 16px;
+}
+/* yukito bloody */
+.back {
+  position: relative;
+  top: -30px;
+  font-size: 16px;
+  margin: 10px 10px 3px 15px;
+}
+.inline {
+  display: inline-block;
+}
+
+.shopnow,
+.contact {
+  background-color: #000;
+  padding: 10px 20px;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.shopnow:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #c41505;
+}
+/* for button animation*/
+.shopnow span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: all 0.5s;
+}
+.shopnow span:after {
+  content: url("https://badux.co/smc/codepen/caticon.png");
+  position: absolute;
+  font-size: 30px;
+  opacity: 0;
+  top: 2px;
+  right: -6px;
+  transition: all 0.5s;
+}
+.shopnow:hover span {
+  padding-right: 25px;
+}
+.shopnow:hover span:after {
+  opacity: 1;
+  top: 2px;
+  right: -6px;
+}
+.ma {
+  margin: auto;
+}
+.price {
+  color: slategrey;
+  font-size: 2em;
+}
+#mycart {
+  min-width: 90px;
+}
+#cartItems {
+  font-size: 17px;
+}
+#product .container .row .pr4 {
+  padding-right: 15px;
+}
+#product .container .row .pl4 {
+  padding-left: 15px;
+}
