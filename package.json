@@ -2,7 +2,7 @@
   "name": "ecom_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://garima21-99.github.io/React-Ecommerce",
+  "homepage": "http://garima21-99.github.io/ecom_website",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
