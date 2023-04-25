@@ -42,7 +42,7 @@ function Navbar() {
           Ecommerce  Website
         </Typography>
           <div className={classes.navlinks}>
-            <Link to="/" className={classes.link}>
+            <Link to="/ecom_website" className={classes.link}>
               Products
             </Link>
             <Link to="/aboutus" className={classes.link}>
