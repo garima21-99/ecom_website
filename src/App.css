@@ -128,9 +128,10 @@ top: 15%;
   font-size: 18px;
 }
 
-
+.icons{
+  width: 300px;
+}
 svg {
-  margin-left: 8rem;
   cursor: pointer;
 }
 .image{

@@ -63,8 +63,9 @@ export default function Productcard({image, price, title, id, }) {
           </Typography>
         </CardContent>
         <CardActions>
-        <Button variant="contained"  onClick={() => navigateProduct(id)}>View More</Button>
-        <AddShoppingCartIcon className='cart_icon' onClick={() => {
+          <div className='home_icons'>
+        <Button variant="contained" className='icons float-left' onClick={() => navigateProduct(id)}>View More</Button>
+        <AddShoppingCartIcon className='icons cart_icon float-right mx-3' onClick={() => {
                     let a_=localStorage.getItem('product_id')
                     let b_=JSON.parse(a_)
                     setProductid([...b_,id])
@@ -75,6 +76,9 @@ export default function Productcard({image, price, title, id, }) {
                     showConfirmButton:false})
 
               }} />
+              </div>
+        
+        
                     {localStorage.setItem('product_id',JSON.stringify(productid))}
         
         </CardActions>

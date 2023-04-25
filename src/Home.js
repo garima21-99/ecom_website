@@ -46,7 +46,7 @@ const Home=()=>{
         <h1 className='text-center p-2'>Shop ALL</h1>
         <Grid
             container
-            spacing={{ xs: 2, sm:4 ,md: 4 }} columns={{ xs: 8, sm: 12, md: 20 }}
+            spacing={{ xs: 2, sm:4 ,md: 4 }} columns={{ xs: 8, sm: 12, md: 16 }}
             bac
             id='products_container'
             alignItems="center"
