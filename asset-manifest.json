@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.838ec871.css",
-    "main.js": "/static/js/main.51c92a3b.js",
+    "main.js": "/static/js/main.96288a7b.js",
     "static/js/787.93744af3.chunk.js": "/static/js/787.93744af3.chunk.js",
     "static/media/abstract-background-with-waves-glow-vector-illustration-light-background_1182-2531.avif": "/static/media/abstract-background-with-waves-glow-vector-illustration-light-background_1182-2531.9461c4f112cbcad779af.avif",
     "index.html": "/index.html",
     "main.838ec871.css.map": "/static/css/main.838ec871.css.map",
-    "main.51c92a3b.js.map": "/static/js/main.51c92a3b.js.map",
+    "main.96288a7b.js.map": "/static/js/main.96288a7b.js.map",
     "787.93744af3.chunk.js.map": "/static/js/787.93744af3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.838ec871.css",
-    "static/js/main.51c92a3b.js"
+    "static/js/main.96288a7b.js"
   ]
 }
