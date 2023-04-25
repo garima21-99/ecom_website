@@ -12,7 +12,7 @@ function App() {
     <Navbar />
       <Routes>
       
-        <Route path="/ecom_website" element={<Home />}> </Route>
+        <Route path="/" element={<Home />}> </Route>
 
         <Route path="/aboutus" element={<Aboutus />}> </Route>
         <Route path="/:id" element={<ProductDetail />}> </Route>
